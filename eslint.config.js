@@ -82,7 +82,7 @@ module.exports = [
     ],
   ),
   ...overrides(
-    ["**/*.tests.ts"],
+    ["**/*.test.ts"],
     [
       ...compat.extends("plugin:jest/recommended"),
       ...compat.extends("plugin:jest/style"),
