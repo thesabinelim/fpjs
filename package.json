@@ -24,7 +24,7 @@
     "lint:single": "eslint --max-warnings 0 --fix --no-warn-ignored",
     "preinstall": "npx -y only-allow pnpm",
     "prepare": "husky install",
-    "test": "jest",
+    "test": "jest --passWithNoTests",
     "test:watch": "pnpm run test --watch"
   },
   "devDependencies": {
